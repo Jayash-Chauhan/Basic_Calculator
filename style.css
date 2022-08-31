@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-color: grey;
+}
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+    /*   border: 2px solid black */
+    overflow: hidden;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+.mg-l {
+    margin-left: 201px;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+}
+
+.row-2 {
+    margin: 9px 0;
+}
+
+.row-2 input {
+    margin: 0;
+    padding: 13px 40px;
+    border: 2px solid black;
+    border-radius: 13px;
+    text-align: end;
+}
+
+.row {
+    margin: 9px 0;
+}
+
+.row input {
+    margin: 0;
+    padding: 13px 40px;
+    border: 2px solid black;
+    border-radius: 13px;
+    text-align: end;
+    box-shadow: 4px 5px;
+}
+
+.text-center {
+    text-align: center;
+    color: darkblue;
+    text-decoration-line: overline;
+    text-shadow: 2px 2px lightsalmon;
+    /*   color: blue;
+  text-decoration-line: overline underline;
+  text-decoration-color: blueviolet; */
+}
+
+
+/* .bg-red{
+  background: red;
+}
+ */
+
+.mx-auto {
+    margin: auto;
+}
+
+
+/* .m-w-20{
+  max-width: 40vw;
+  width: 100%;
+} */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.img {
+    background-image: url("calculatores background.jpg");
+    background-position: center;
+    z-index: -1;
+}
